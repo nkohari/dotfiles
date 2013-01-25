@@ -1,4 +1,4 @@
-BREW_PACKAGES = git hub figlet
+BREW_PACKAGES = git hub figlet fortune
 
 install:
 	install-brew install-brew-packages link-configs
