@@ -1,0 +1,20 @@
+export EDITOR=/usr/bin/vim
+export CLICOLOR=1
+export PATH=/usr/local/sbin:/Applications/MonoDevelop.app/Contents/MacOS/:/usr/local/share/npm/bin:$PATH
+
+export GIT_PS1_SHOWDIRTYSTATE=1
+export GIT_PS1_SHOWSTASHSTATE=1
+export GIT_PS1_SHOWUNTRACKEDFILES=1
+
+c_red="\[\e[0;31m\]"
+c_green='\[\e[0;32m\]'
+c_darkgrey='\[\e[0;30m\]'
+c_cyan='\[\e[0;36m\]'
+c_reset='\[\e[m\]'
+
+source ~/.dotfiles/bash/aliases
+source ~/.dotfiles/git/git-completion.sh
+
+export PS1="${c_darkgrey}\u@\h:${c_reset}\w${c_cyan}\$(__git_ps1 ' [%s]')${c_reset} \$ "
+
+~/.dotfiles/scripts/welcome.sh

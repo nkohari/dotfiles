@@ -1,0 +1,13 @@
+[user]
+	name = Nate Kohari
+	email = nkohari@gmail.com
+[alias]
+	aa = add -A
+	br = branch
+	co = checkout
+	cob = checkout -b
+	cm = commit -m
+	st = status
+	wat = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+[mergetool]
+	keepBackup = true
