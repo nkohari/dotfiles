@@ -1,6 +1,7 @@
 [user]
 	name = Nate Kohari
 	email = nkohari@gmail.com
+
 [alias]
 	aa = add -A
 	br = branch
@@ -9,5 +10,27 @@
 	cm = commit -m
 	st = status
 	wat = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+
+[color "status"]
+	added = yellow
+  changed = green
+  untracked = cyan
+
 [mergetool]
 	keepBackup = true
