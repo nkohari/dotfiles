@@ -9,12 +9,16 @@ export GIT_PS1_SHOWUNTRACKEDFILES=1
 c_red="\[\e[0;31m\]"
 c_green='\[\e[0;32m\]'
 c_darkgrey='\[\e[1;30m\]'
+c_red='\[\e[0;31m\]'
+c_green='\[\e[0;32m\]'
+c_blue='\[\e[0;34m\]'
+c_magenta='\[\e[0;35m\]'
 c_cyan='\[\e[0;36m\]'
 c_reset='\[\e[m\]'
 
 source ~/.dotfiles/bash/aliases
 source ~/.dotfiles/git/git-completion.sh
 
-export PS1="${c_darkgrey}\u@\h:${c_reset}\w${c_cyan}\$(__git_ps1 ' [%s]')${c_reset} \$ "
+export PS1="${c_darkgrey}\u@\h:${c_reset}\w${c_cyan}\$(__git_ps1 ' [%s]')${c_reset} → "
 
 ~/.dotfiles/scripts/welcome.sh
