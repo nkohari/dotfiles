@@ -8,7 +8,7 @@ export GIT_PS1_SHOWUNTRACKEDFILES=1
 
 c_red="\[\e[0;31m\]"
 c_green='\[\e[0;32m\]'
-c_darkgrey='\[\e[0;30m\]'
+c_darkgrey='\[\e[1;30m\]'
 c_red='\[\e[0;31m\]'
 c_green='\[\e[0;32m\]'
 c_blue='\[\e[0;34m\]'
