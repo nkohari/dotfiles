@@ -9,6 +9,7 @@
   cob = checkout -b
   cm = commit -m
   st = status
+  df = diff --cached
   wat = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
 
 [color]
@@ -34,3 +35,6 @@
 
 [mergetool]
   keepBackup = true
+[branch]
+[branch]
+	autosetuprebase = always

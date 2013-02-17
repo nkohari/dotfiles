@@ -1,4 +1,14 @@
+alias s='subl'
+
 alias git='hub'
 alias g='hub'
+
 alias pg='pgrep -l'
 alias pk='pkill'
+
+alias k='knife'
+alias kcb='knife cookbook'
+alias kn='knife node'
+alias kc='knife client'
+alias kr='knife role'
+alias ke='knife environment'
