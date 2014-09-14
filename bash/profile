@@ -8,8 +8,6 @@ export GIT_PS1_SHOWUNTRACKEDFILES=1
 
 source ~/.dotfiles/bash/colors
 source ~/.dotfiles/bash/aliases
-source ~/.dotfiles/bash/aws
-source ~/.datadog
 source ~/.dotfiles/git/git-completion.sh
 
 export PS1="${c_darkgrey}\u@\h:${c_reset}\w${c_cyan}\$(__git_ps1 ' [%s]')${c_reset} → "

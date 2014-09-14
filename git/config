@@ -35,6 +35,6 @@
 
 [mergetool]
   keepBackup = true
+
 [branch]
-[branch]
-	autosetuprebase = always
+  autosetuprebase = always
