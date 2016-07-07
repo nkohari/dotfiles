@@ -12,3 +12,8 @@ alias kn='knife node'
 alias kc='knife client'
 alias kr='knife role'
 alias ke='knife environment'
+
+alias adzerk-vpn='sudo openvpn --config /usr/local/etc/openvpn/nkohari.conf'
+alias restart-dnsmasq='sudo launchctl stop homebrew.mxcl.dnsmasq && sudo launchctl start homebrew.mxcl.dnsmasq'
+
+function code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args "$@"; }

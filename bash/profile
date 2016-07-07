@@ -1,6 +1,6 @@
 export EDITOR=/usr/bin/vim
 export CLICOLOR=1
-export PATH=/usr/local/sbin:/Applications/MonoDevelop.app/Contents/MacOS/:/usr/local/share/npm/bin:$PATH
+export PATH=/usr/local/opt/ruby/bin:/usr/local/bin:/usr/local/sbin:/usr/local/Cellar/ruby/2.0.0-p0/bin:/Applications/MonoDevelop.app/Contents/MacOS/:/usr/local/share/npm/bin:/usr/local/share/python:/usr/local/opt/android-sdk/bin:$PATH
 
 export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWSTASHSTATE=1
@@ -13,5 +13,7 @@ source ~/.datadog
 source ~/.dotfiles/git/git-completion.sh
 
 export PS1="${c_darkgrey}\u@\h:${c_reset}\w${c_cyan}\$(__git_ps1 ' [%s]')${c_reset} → "
+
+ulimit -n 10000
 
 ~/.dotfiles/scripts/welcome.sh
