@@ -10,7 +10,8 @@
   cm = commit -m
   st = status
   df = diff --cached
-  wat = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  wat = log --graph --pretty=format:'%Cred%h%Creset - %C(cyan)%an%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  yolo = push -f master
 
 [color]
   branch = auto
